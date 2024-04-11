@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-weight: lighter;
+    font-family: "DMSerifDisplay";
+    src: url("/Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-weight: lighter;
+    font-family: "DMSans";
+    src: url("/Fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+body{
+    background-color: #F3E5D8;
+}
+
+header{
+    background-color: #255538;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 6px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    color: white ;
+    top: 30px;
+    left: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: "DMSerifDisplay";
+}
+
+#bitcook{
+    align-items: center;
+    padding-right: 6px;
+    display: flex;
+}
+
+#send{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "DMSans";
+}
+
+.button{
+    background-image: url("/Imagenes/Vector\ Luna.jpg");
+    background-size: cover;
+    color: white;
+    width: 30px;
+    height: 30px;
+    top: 41px;
+    left: 1375px;
+    border-radius: 50%;
+}
+
+.image-container{
+    background-image: url("/Imagenes/FondoHD.jpg");
+    border-radius: 5px;
+    margin-top: 5px;
+    min-height: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    left: 20px;
+    width: auto;
+    margin-right: 40px;
+}
+
+.texto-image{
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 60px;
+    margin: 25px;
+    left: 80px;
+    position: absolute;
+    top: 50px;
+    height: 122px;
+    font-weight: 400px;
+    font-family: "DM Serif Display";
+}
+
+.best-recipes{
+    font-size: 15px;
+    color: #7E4333;
+    margin: 17px;
+    font-family: "DmSerifDisplay";
+}
+
+main{
+    max-width: 1240px;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+main h2{
+    color: #7E4333;
+    font-family: "DMSerifDisplay";
+    font-size: 25px;
+    margin: 15px;
+    font-weight: lighter;
+}
+.r-grid{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    gap: 20px;
+    display: grid;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.recipe-item{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 387px;
+    height: 450px;
+}
+
+.recipe-item h2{
+    font-size: 30px;
+    color:#7E4333;
+    margin: 15px;
+    text-align: center;
+    font-family: "DMSerifDisplay";
+}
+
+.recipe-item ul{
+    margin-left: 15px;
+}
+
+.recipe-item ul li{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 20px;
+    font-family: "DMSans";
+}
+.recipe1{
+    background-image: url("/Imagenes/CarbonaraHD.jpg");
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe2{
+    background-image: url("/Imagenes/PitaHD.jpg");
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe3{
+    background-image: url("/Imagenes/LasagnaHD.jpg");
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe4{
+    background-image: url("/Imagenes/PizzaHD.jpg");
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe5{
+    background-image: url("/Imagenes/RisottoHD.jpg");
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recipe6{
+    background-image: url("/Imagenes/TiramisuHD.jpg");
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    border-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: #255538;
+    color: white;
+    height: 60px;
+    top: 1578px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#footer-izq{
+    font-size: 15px;
+    font-family: "DMSerifDisplay";
+}
+
+#footer-der{
+    font-size: 15px;
+    font-family: "DMSans";
+}
+
+
+
+@media (max-width: 768px){
+    main{
+        .r-grid{
+            display: grid;
+            max-width: 1240px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 440px 440px 440px;
+            gap: 20px;
+            margin: 0 auto;
+            margin-left: 20px;
+        }
+        .recipe-item{
+            width: 340px;
+            height: 450px;
+        }
+        .texto-image{
+            font-size: 48px;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    main{
+        .r-grid{
+            display: flex;
+            margin-left: 35px;
+            max-width: 1240px;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

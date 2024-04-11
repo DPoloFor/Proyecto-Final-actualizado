@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url("/Fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DMSerifDisplay";
+    src: url("/Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf") format("truetype");
+}
+body{
+    background-color: #F3E5D8;
+}
+
+header{
+    background-color: #255538;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 6px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    color: white ;
+    top: 30px;
+    left: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#bitcook{
+    align-items: center;
+    padding-right: 6px;
+    display: flex;
+}
+
+#send{
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "DMSans";
+}
+
+.button{
+    background-image: url("/Imagenes/Vector\ Luna.jpg");
+    background-size: cover;
+    color: white;
+    width: 30px;
+    height: 30px;
+    top: 41px;
+    left: 1375px;
+    border: 2.2px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    max-width: 1240px;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.grid-cont{
+    max-width: 1240px;
+    display: grid;
+    align-items: flex-start;
+    gap: 10px;
+    grid-template-columns: 70% 1fr;
+}
+
+.lado-izq{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 70%;
+}
+
+.platillo{
+    background-image: url("/Imagenes/CarbonaraHD.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    border-right: 5px;
+    height: 290px;
+    max-width: 100%;
+}
+
+#receta{
+    padding: 20px;
+    margin: auto;
+    height: 200px;
+}
+
+#receta h1{
+    font-size: 35px;
+    color: #7e4333;
+    font-family: "DMSerifDisplay";
+}
+
+#receta p{
+    font-size: 15px;
+    margin-top: 25px;
+    font-family: "DMSans";
+}
+
+#Complejidad{
+    background-color: papayawhip;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    height: 168px;
+}
+
+#Complejidad h2{
+    font-family: "DMSerifDisplay";
+    font-size: 20px;
+    color: #7e4333;
+    margin: 15px;
+}
+
+#Complejidad ul{
+    margin-left: 60px;
+}
+
+#Complejidad ul li{
+    font-family: "DMSans";
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#Preparacion{
+    margin: 5px;
+    padding: 15px;
+}
+
+#Preparacion h2{
+    font-size: 20px;
+    color: #7e4333;
+    font-family: "DMSerifDisplay";
+}
+
+#Preparacion ol{
+    margin-left: 30px;
+}
+
+#Preparacion ol li{
+    font-size: 16px;
+    margin-top: 5px;
+    font-family: "DMSans";
+}
+
+.lado-der{
+    flex: 30%;
+}
+
+#fila-arriba{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#fila-arriba h2{
+    font-size: 20px;
+    color: #7e4333;
+    font-family: "DMSerifDisplay";
+}
+
+#fila-arriba ul{
+    margin: 20px;
+}
+
+#fila-arriba ul li{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: "DMSans";
+}
+
+.receta{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: "DMSans";
+}
+
+.receta table{
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 25px;
+}
+
+.receta table tr{
+    border-bottom: 2px solid salmon;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.valor-nutricional{
+    text-align: center;
+}
+
+#fila-medio{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-gap:10px;
+}
+
+#fila-medio h2{
+    font-size: 30px;
+    color: #7e4333;
+    font-family: "DMSerifDisplay";
+}
+
+#fila-medio h3{
+    font-size: 25px;
+    font-family: "DMSerifDisplay";
+}
+
+#fila-medio p{
+    font-size: 20px;
+}
+
+.carta-receta1{
+    display: flex;
+    border-radius: center;
+    align-items: center;
+    font-family: "DMSans";
+    font-size: 15px;
+}
+
+.p-carta1{
+    background-image: url("/Imagenes/TiramisuHD.jpg");
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carta-receta2{
+    display: flex;
+    border-radius: center;
+    align-items: center;
+    font-family: "DMSans";
+    font-size: 15px;
+}
+
+.p-carta2{
+    background-image: url("/Imagenes/PizzaHD.jpg");
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carta-receta3{
+    display: flex;
+    border-radius: center;
+    align-items: center;
+    font-family: "DMSans";
+    font-size: 15px;
+}
+
+.p-carta3{
+    background-image: url("/Imagenes/PitaHD.jpg");
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+    padding: 20px;
+}
+
+.info p{
+    margin-bottom: 0 auto;
+    font-weight: lighter;
+}
+
+.info h3{
+    margin-top: 0 auto;
+    color: #7e4333;
+    font-family: "DMSerifDisplay";
+    font-weight: lighter;
+}
+
+footer{
+    background-color: #255538;
+    color: white;
+    height: 60px;
+    top: 1578px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#footer-izq{
+    font-family: "DMSerifDisplay";
+    font-size: 15px;
+}
+
+#footer-der{
+    font-family: "DMSans";
+    font-size: 15px;
+}
+
+@media (max-width: 768px){
+    main{
+        .grid-cont{
+            display: grid;
+            max-width: 1240px;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .lado-der{
+            margin: 10px;
+        }
+        .lado-izq{
+            margin: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 480px){
+    main{
+        .r-grid{
+            display: flex;
+            margin-left: 35px;
+            max-width: 1240px;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
